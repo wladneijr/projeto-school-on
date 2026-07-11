@@ -1,0 +1,41 @@
+/*  ESTILO DO MENU  */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    color: #000000;
+    height: 80px;
+    display: grid;
+    /* grid-template-columns: repeat(4,160px); */
+    grid-template-columns: repeat(5,1fr,1fr,1fr,1fr,1fr);
+    
+}
+
+.logo {
+    margin: 20px 20px 0px 50px;
+}
+
+.logo a{
+    text-decoration: none;
+
+}
+
+span#burguer {
+    grid-column: 5;
+    justify-self: center;
+    align-self: center;
+    display: block;
+    color: var(--dark-footer);
+    text-align: center;
+    font-size: 40px;
+}
+
+span#burguer:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}

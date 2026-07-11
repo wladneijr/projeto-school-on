@@ -1,1 +1,53 @@
 /* # Arquivo CSS principal (ou global) */
+@charset "UTF-8";
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto/static/Roboto-Regular.ttf');
+}
+/* RESETS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*
+    #BBBBBB - LOGO FONT
+    #E13690 - ROSA FONT
+    #E43E8F - MAIN PINK
+    #ED598A - PINK - 2
+    #F26987 - PINK - 3
+    #F87C83 - PINK - 4
+    #FFFFFF - WHITE
+    #000000 - BLACK
+    #F7BD2E - AMARELO
+    #333333 - BG FOOTER
+
+    FONTS
+
+    Roboto Regular
+
+*/
+
+:root {
+    /* Para fonte */
+    --font-pink     : #E13690;
+    --logo-font     : #BBBBBB;
+
+    /* Para Interface */
+    --main-pink     : #E43E8F;
+    --sec-pink      : #ED598A;
+    --third-pink    : #F26987;
+    --last-pink     : #F87C83;
+    --my-yellow     : #F7BD2E;
+    --dark-footer   : #333333;  
+}
+
+
+html , body {
+    height: 100vh;
+    font-family: 'Roboto';
+    background-color: var(--dark-footer);
+}
+
+
