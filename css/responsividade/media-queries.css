@@ -27,9 +27,8 @@ Grandes Telas: - acima de 1200px
     .menu nav ul {
         list-style: none;
         display: flex;
-        gap: 80px;
+        gap: 100px;
         justify-content: center;
-        
     }
 
     .menu nav ul li {

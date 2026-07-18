@@ -1,20 +1,34 @@
 /*  ESTILO DO MENU  */
+:root {
+    /* Para fonte */
+    --font-pink     : #E13690;
+    --logo-font     : #BBBBBB;
+
+    /* Para Interface */
+    --main-pink     : #E43E8F;
+    --sec-pink      : #ED598A;
+    --third-pink    : #F26987;
+    --last-pink     : #F87C83;
+    --my-yellow     : #F7BD2E;
+    --dark-footer   : #333333;  
+}
+
 
 header {
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 2; */
     background-color: #fff;
     color: #000000;
     height: 80px;
     display: grid;
     /* grid-template-columns: repeat(4,160px); */
-    grid-template-columns: repeat(5,1fr,1fr,1fr,1fr,1fr);
-    
+    grid-auto-columns: repeat(4,1fr);
 }
 
 .logo {
-    margin: 20px 20px 0px 50px;
+    grid-column: 1;
+    margin: 20px 0px 0px 50px;
 }
 
 .logo a{
@@ -23,7 +37,7 @@ header {
 }
 
 span#burguer {
-    grid-column: 5;
+    grid-column: 4;
     justify-self: center;
     align-self: center;
     display: block;

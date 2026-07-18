@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+:root {
+    /* Para fonte */
+    --font-pink     : #E13690;
+    --logo-font     : #BBBBBB;
+
+    /* Para Interface */
+    --main-pink     : #E43E8F;
+    --sec-pink      : #ED598A;
+    --third-pink    : #F26987;
+    --last-pink     : #F87C83;
+    --my-yellow     : #F7BD2E;
+    --dark-footer   : #333333;  
+}
+
+.principal { /* elemento PAI*/
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(2,60vh);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.hero h1 {
+    color: var(--font-pink);
+    
+    margin-bottom: 30px;
+}
+
+.hero #pOne-hero-div {
+    color: white;
+    line-height: 1.9;
+    padding: 0px 60px;
+}
+
+.hero #pTwo-hero-div {
+    padding: 30px 0px;
+    color: white;
+}
+
+.image {
+    background-color: var(--logo-font);
+    height: 30vh;
+}
+
+#btnSaber-mais {
+    padding: 18px 57px 19px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    background: linear-gradient(to right,#F87C83 ,#F26987, #ED598A,#E43E8F);
+    color: white;
+}

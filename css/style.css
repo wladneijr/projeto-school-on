@@ -47,7 +47,6 @@
 html , body {
     height: 100vh;
     font-family: 'Roboto';
-    background-color: var(--dark-footer);
 }
 
 
