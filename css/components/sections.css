@@ -17,11 +17,11 @@
 .principal { /* elemento PAI*/
     background-color: black;
     display: grid;
-    grid-template-rows: repeat(2,60vh);
+    grid-template-rows: repeat(2,70vh);
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 3px;
 }
 
 .hero h1 {
@@ -41,11 +41,6 @@
     color: white;
 }
 
-.image {
-    background-color: var(--logo-font);
-    height: 30vh;
-}
-
 #btnSaber-mais {
     padding: 18px 57px 19px;
     border-radius: 50px;
@@ -54,4 +49,31 @@
     font-weight: bolder;
     background: linear-gradient(to right,#F87C83 ,#F26987, #ED598A,#E43E8F);
     color: white;
+}
+
+.image {
+    display: flex;
+    background-color: black;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink-circle {
+    /* position: relative; */
+    display: flex;
+    background: linear-gradient(to bottom,#E13690,#E43E8F,#ED598A,#F26987,#F87C83,#fda0a5,#9cdad4);
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+#img-joia {
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* bottom: -326px; */
+    max-width: 300px;
+    max-height: 961px;
+
 }
