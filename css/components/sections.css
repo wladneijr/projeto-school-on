@@ -140,5 +140,57 @@
     margin-left: 60px;
     font-style: italic;
     margin-top: 30px;
+    padding-bottom: 40px;
 }
 
+/* TERCEIRA SECTION */
+.terceira {
+    background-color: black;
+    color: white;
+    min-height: 600px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#terceira-h1 {
+    padding: 40px 20px 40px 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 20px;
+}
+
+#card-01{
+    background-color: #F7BD2E;
+    min-width: 360px;
+    min-height: 500px;
+    grid-column: 2;
+    border-radius: 16px;
+
+}
+
+#card-02{
+    background-color: #9cdad4;
+    min-width: 360px;
+    min-height: 500px;
+    grid-column: 2;
+    border-radius: 16px;
+}
+
+#card-03{
+    background-color: ivory;
+    min-width: 360px;
+    min-height: 500px;
+    grid-column: 2;
+    border-radius: 16px;
+}
