@@ -194,3 +194,21 @@
     grid-column: 2;
     border-radius: 16px;
 }
+#linha {
+    background-color: black;
+    height: 1px;
+    width: 300px;
+    justify-self: end;
+}
+
+#card-h1 {
+    color: black;
+    font-weight: bolder;
+    padding: 20px 60px 20px 20px;
+}
+
+#card-p {
+    color: black;
+    padding: 220px 20px 20px 20px;
+    font-size: 1.1rem;
+}
