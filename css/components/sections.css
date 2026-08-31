@@ -212,3 +212,14 @@
     padding: 220px 20px 20px 20px;
     font-size: 1.1rem;
 }
+
+/* QUARTA SECTION */
+.quarta {
+    background-color: white;
+    color: var(--font-pink);
+    min-height: 600px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    box-sizing: border-box;
+    justify-content: center;
+}
