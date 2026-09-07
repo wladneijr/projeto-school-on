@@ -170,6 +170,12 @@
     gap: 20px;
 }
 
+#card-01,#card-02,#card-03 {
+    display: flex;
+    flex-direction: column;
+
+}
+
 #card-01{
     background-color: #F7BD2E;
     min-width: 360px;
@@ -216,7 +222,8 @@
 span.material-symbols-outlined {
     color: black;
     font-size: 62px;
-    padding-left: 260px;
+    /* padding-left: 260px; */
+    align-self: flex-end;
 }
 
 /* QUARTA SECTION */
