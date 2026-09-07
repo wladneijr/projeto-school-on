@@ -209,14 +209,14 @@
 
 #card-p {
     color: black;
-    padding: 220px 20px 20px 20px;
+    padding: 220px 40px 20px 40px;
     font-size: 1.1rem;
 }
 
-.material-symbols-outlined {
+span.material-symbols-outlined {
     color: black;
-    font-size: 60px;
-    padding-left: 250px;
+    font-size: 62px;
+    padding-left: 260px;
 }
 
 /* QUARTA SECTION */
