@@ -163,7 +163,7 @@
 .cards {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     box-sizing: border-box;
     /* justify-content: center;
     align-items: center; */
@@ -182,23 +182,26 @@
     min-height: 500px;
     grid-column: 2;
     border-radius: 16px;
+    grid-row: 1;
 
 }
 
 #card-02{
     background-color: #9cdad4;
-    min-width: 360px;
+    min-width: 320px;
     min-height: 500px;
     grid-column: 2;
     border-radius: 16px;
+    grid-row: 2;
 }
 
 #card-03{
     background-color: ivory;
-    min-width: 360px;
+    min-width: 320px;
     min-height: 500px;
     grid-column: 2;
     border-radius: 16px;
+    grid-row: 3;
 }
 #linha {
     background-color: black;
